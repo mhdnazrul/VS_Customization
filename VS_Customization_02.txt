@@ -1,0 +1,90 @@
+{
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+
+  // Editor Settings
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 18,
+  "editor.tabSize": 1,
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.hover.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "comments": "#ffdf4f"
+  },
+  "diffEditor.wordWrap": "on",
+
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 16,
+
+  // Minimap
+  "editor.minimap.enabled": false,
+
+  // File Settings
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // Window
+  "window.zoomLevel": 0,
+
+  // Color Customizations
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ff0000",
+    "editorGroupHeader.tabsBackground": "#2c2c54",
+    "activityBar.background": "#2c2c54",
+    "sideBar.background": "#141422",
+    "tab.activeBackground": "#706fd3",
+    "tab.inactiveBackground": "#191846",
+    "terminal.border": "#2c2c54",
+    "terminal.background": "#2c2c54",
+    "statusBar.background": "#474787",
+    "scrollbarSlider.background": "#474787",
+    "scrollbarSlider.hoverBackground": "#706fd3"
+  },
+
+  // Prettier Configurations
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.proseWrap": "always",
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Live Server Settings
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // Live Sass Compiler Settings
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+
+  // Emmet Support for JSX
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Screencast Mode for Presentations
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "screencastMode.mouseIndicatorColor": "#f1c40f",
+  "screencastMode.verticalOffset": 0,
+  "workbench.colorTheme": "Andromeda",
+  "workbench.iconTheme": "material-icon-theme"
+}
